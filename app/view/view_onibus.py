@@ -16,7 +16,7 @@ CAPACIDADE_ONIBUS = 20
 class OnibusView:
     def __init__(self, root):
         """
-        Inicializa a interface gráfica, configura a janela principal e cria os widgets.
+       # Inicializa a interface gráfica, configura a janela principal e cria os widgets.
         """
         self.controller = OnibusController(CAPACIDADE_ONIBUS, CAMINHO_ARQUIVO)
         self.root = root
